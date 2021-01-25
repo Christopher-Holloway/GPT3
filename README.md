@@ -9,6 +9,9 @@ Example of GPT3 generating python code to plot NDBC buoy data over the past 5 da
     python plots.py
 
 ## Ouput
+        print(modified_response)
+        ["ax.plot(df['ATMP'])", "ax.set(ylabel='air temperature',xlabel='date')"]
+
 ![alt text](https://github.com/Christopher-Holloway/GPT3/blob/master/GPT3.png)
 
 
